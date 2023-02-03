@@ -64,7 +64,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>My React App</h1>
+      <h1>My Vercel Deployed App</h1>
       <ul>
         {users.map(user=>{
           return <li key={user.id}>{user.name}</li>
